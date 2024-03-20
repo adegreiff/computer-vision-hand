@@ -29,8 +29,9 @@ function animationLoop() {
             y: l.y * canvasElement.height,
           };
           const hue = (i * 360) / 21;
-          drawPoint(pos, hue);
+          //drawPoint(pos, hue);
           if (i === 8) {
+            drawPoint(pos, 12);
             //mousePos = { x: l.x * canvasElement.width, y: l.y * canvasElement.height };
           }
         });
